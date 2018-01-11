@@ -1,0 +1,12 @@
+<h1> Movie Application</h1>
+
+<p> <%= data.Search[0].Title %></p>
+
+<p> <% data.Search.forEach(function(movie){ %>
+     <p></p>
+    <li><%= movie.Title %> </li>
+    <li><%= movie.Year %> </li>
+    <li><%= movie.Type %> </li>
+    <li><%= movie.imdbID %> </li>
+       <%  }) %>
+    </p>
