@@ -4,9 +4,9 @@
 
 <p> <% data.Search.forEach(function(movie){ %>
      <p></p>
-    <li><%= movie.Title %> </li>
-    <li><%= movie.Year %> </li>
-    <li><%= movie.Type %> </li>
-    <li><%= movie.imdbID %> </li>
+    <li>Title :<%= movie.Title %> </li>
+    <li>Year: <%= movie.Year %> </li>
+    <li>Type:<%= movie.Type %> </li>
+    <li>ID:  <%= movie.imdbID %> </li>
        <%  }) %>
     </p>
